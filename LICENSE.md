@@ -7,7 +7,7 @@ This EULA agreement governs your acquisition and use of our Software ("Source co
 
 Please read this EULA agreement carefully before completing the installation process and using the Software. It provides a license to use the Software and contains warranty information and liability disclaimers.
 
-If you register for a free trial of the Software, this EULA agreement will also govern that trial. By clicking "accept" or installing and/or using the Software, you are confirming your acceptance of the Website and agreeing to become bound by the terms of this EULA agreement.
+If you register for a free trial of the Software, this EULA agreement will also govern that trial. By clicking "accept" or installing and/or using the Software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
 
 If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.
 
@@ -31,13 +31,13 @@ You are not permitted to:
 
 SwedishStudios Games shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of SwedishStudios Games.
 
-SwedishStudios Games reserves the right to grant licences to use the Website to third parties.
+SwedishStudios Games reserves the right to grant licences to use the Software to third parties.
 
 ### Termination
 
 This EULA agreement is effective from the date you first use the Software and shall continue until terminated. You may terminate it at any time upon written notice to SwedishStudios Games.
 
-It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Website. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.
+It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Software. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.
 
 ### Governing Law
 
