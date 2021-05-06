@@ -8,4 +8,4 @@ while 1:
         for x in range(0,key_len):
             key_char = random.choice(chars)
             key = key + key_char
-        print("Here's your key: ", key)
+        print("Here's your key: ",key)
