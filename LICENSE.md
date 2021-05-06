@@ -1,7 +1,7 @@
 # End-User License Agreement (EULA) of the Software.
 --------------------------------------------
 
-This End-User License Agreement ("EULA") is a legal agreement between you and SwedishStudios Games. Our EULA was created by [EULA Template](https://www.eulatemplate.com) for the Website.
+This End-User License Agreement ("EULA") is a legal agreement between you and SwedishStudios Games. Our EULA was created by [EULA Template](https://www.eulatemplate.com) for the Software.
 
 This EULA agreement governs your acquisition and use of our Software ("Source code") directly from SwedishStudios Games or indirectly through a SwedishStudios Games authorized reseller or distributor (a "Reseller"). Our Privacy Policy was created by [the Privacy Policy Generator](https://www.generateprivacypolicy.com/).
 
