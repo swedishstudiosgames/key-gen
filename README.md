@@ -1,4 +1,4 @@
-# Product Key Generator In Python 3.x
+# Product Key Generator In Python 3
 
 ```
 import random
