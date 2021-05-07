@@ -14,4 +14,6 @@ while 1:
         print("Here's your key: ", key)
 ```
 Output:
-`What length would you like your key to be?: `
+```
+What length would you like your key to be?: 
+```
