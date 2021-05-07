@@ -13,3 +13,5 @@ while 1:
             key      = key + key_char
         print("Here's your key: ", key)
 ```
+Output:
+`What length would you like your key to be?: `
