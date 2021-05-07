@@ -10,6 +10,6 @@ while 1:
         key = ""
         for x in range(0,key_len):
             key_char = random.choice(chars)
-            key = key + key_char
-        print("Here's your key: ",key)
+            key      = key + key_char
+        print("Here's your key: ", key)
 ```
