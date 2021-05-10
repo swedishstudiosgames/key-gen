@@ -24,6 +24,8 @@ div.cntr{padding:15px 0px;border:1px solid #dedede;margin:auto;}
 #shw{display:block;}
 #ppbtn{border:0;width:1;height:1;}
 #ppobj{border:0;}
+#ip{border:1px solid;border-radius:16px;background:#333;padding:15px;width:36%;block-size:auto;}
+#op{border:1px solid;border-radius:16px;background:#333;padding:15px;width:36%;block-size:auto;}
 section{text-align:center;float:left;width:50%;height:80%;background-color:#444;}
 a{text-decoration:none;text-align:center;}
 p{width:auto;}
