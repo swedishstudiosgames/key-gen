@@ -2,9 +2,7 @@
 @viewport{width:device-width;}
 body{width:auto;height:auto;align-items:center;display:flex;background:#888;}
 h1{margin:0;padding:0;font-family:arial;font-size:1.5em;text-align:center;position:relative;}
-a{text-decoration:none;text-align:center;}
 code{font-size:12px;position:center;}
-p{width:auto;}
 #io{width:auto;height:auto;background-color:#444;box-shadow:1px 1.5px #333;border:1px solid #101010;position:relative;padding:50px;margin:50px auto;}
 #i{border:1px solid;border-radius:16px;background:#333;padding:15px;block-size:auto;}
 #o{border:1px solid;border-radius:16px;background:#333;padding:15px;block-size:auto;}
