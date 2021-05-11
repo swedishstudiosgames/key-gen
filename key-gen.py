@@ -1,1 +1,11 @@
-importrandomchars="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"while1:key_len=int(input("Whatlengthwouldyoulikeyourkeytobe?:"))key_count=int(input("Howmanykeyswouldyoulike?:"))forxinrange(0,key_count):key=""forxinrange(0,key_len):key_char=random.choice(chars)key=key+key_charprint("Here'syourkey:",key)
+import random
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+while1:
+  key_len = int(input("What length would you like your key to be?: "))
+  key_count = int(input("How many keys would you like?: "))
+  for x inrange(0,key_count):
+      key=""
+      for x in range(0,key_len):
+          key_char = random.choice(chars)
+          key = key + key_char
+      print("Here's your key: ", key)
