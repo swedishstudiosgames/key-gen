@@ -17,4 +17,5 @@ while 1:
 Output:
 ```
 What length would you like your key to be?: 
+How many keys would you like?: 
 ```
