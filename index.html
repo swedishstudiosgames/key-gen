@@ -14,20 +14,14 @@
      <ol>
       <p>Input:</p>
       <div id="i">
-         <code>import&nbsp;random<br>chars&nbsp;=&nbsp;"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"<br>while&nbsp;1:<br>
-           <dd>key_len&nbsp;=&nbsp;int(input("What&nbsp;length&nbsp;would&nbsp;you&nbsp;like&nbsp;your&nbsp;key&nbsp;to&nbsp;be?:&nbsp;"))<br>key_count&nbsp;=&nbsp;int(input("How&nbsp;many&nbsp;keys&nbsp;would&nbsp;you&nbsp;like?:&nbsp;"))<br>for&nbsp;x&nbsp;in&nbsp;range(0,key_count):<br>
-            </dd>
-           <ol>
-           <dd>key&nbsp;=&nbsp;""<br>for&nbsp;x&nbsp;in&nbsp;range(0,key_len):<br>
-           <ol>key_char&nbsp;=&nbsp;random.choice(chars)<br>key&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;key&nbsp;+&nbsp;key_char</ol>print("Here's&nbsp;your&nbsp;key:&nbsp;",&nbsp;key)</dd></ol>
-         </code>
+        <code>import random,string def g(k,s,l=16):return s.join(''.join(random.choices(k,k=l//4))for _ in range(4)) keys=[g(string.ascii_lowercase+string.digits,'-')for i in range(int(input("Enter the number of keys you want to generate: ")))]with open("keygen.txt",'w')as file: for key in keys:file.write(key+'\n') print("Keys have been written to the file keygen.txt")</code>
        </div>
      </ol>
      <br>
      <ol>
        <p>Output:</p>
        <div id="o">
-         <code>What&nbsp;length&nbsp;would&nbsp;you&nbsp;like&nbsp;your&nbsp;key&nbsp;to&nbsp;be?:&nbsp;</code>
+         <code>Enter the number of keys you want to generate:<br>Keys have been written to the file keygen.txt</code>
         </div>
       </ol>
     </div>
