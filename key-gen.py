@@ -1,11 +1,2 @@
-import random
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
-while 1:
-  key_len = int(input("What length would you like your key to be?: "))
-  key_count = int(input("How many keys would you like?: "))
-  for x in range(0,key_count):
-      key = ""
-      for x in range(0,key_len):
-          key_char = random.choice(chars)
-          key = key + key_char
-      print("Here's your key: ",key)
+import random,string def g(k,s,l=16):return s.join(''.join(random.choices(k,k=l//4))for _ in range(4)) keys=[g(string.ascii_lowercase+string.digits,'-')for i in range(int(input("Enter the number of keys you want to generate: ")))]
+with open("keygen.txt",'w')as file: for key in keys:file.write(key+'\n') print("Keys have been written to the file keygen.txt")
