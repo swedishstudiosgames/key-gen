@@ -6,5 +6,7 @@ import random,string def g(k,s,l=16):return s.join(''.join(random.choices(k,k=l/
 
 Output:
 ```
-Enter the number of keys you want to generate:<br><br>Keys have been written to the file keygen.txt
+Enter the number of keys you want to generate:
+
+Keys have been written to the file keygen.txt
 ```
