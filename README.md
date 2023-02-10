@@ -23,5 +23,4 @@ Output:
 ```
 Enter the number of keys you want to generate:
 
-Keys have been written to the file keygen.txt
 ```
