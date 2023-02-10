@@ -21,6 +21,6 @@ print(f"The product keys are saved in the following file: {l}")
 
 Output:
 ```
-Enter the number of keys you want to generate:
+Enter the number of keys you want to generate: 
 
 ```
