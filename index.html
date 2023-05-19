@@ -15,38 +15,38 @@
       <p>Input:</p>
       <div id="i">
         <code>
-import&nbsp;os,random,string,time
-def&nbsp;gk2(n1):
-    k2=set()
-    c2=string.ascii_uppercase+string.digits
-    rng=random.SystemRandom()
-    while&nbsp;len(k2)<n1:
-        k1='-'.join([''.join(rng.choices(c2,k=4))for&nbsp;i&nbsp;in&nbsp;range(5)])
-        k2.add(k1)
-    return&nbsp;list(k2)
-def&nbsp;wk2tf(k2):
-    fp=os.path.join(os.getcwd(),"keygen.txt")
-    with&nbsp;open(fp,"w")as&nbsp;f1:
-        for i,k1&nbsp;in&nbsp;enumerate(k2):
-            if&nbsp;i&nbsp;in[20,21,24,52,68,79,142,419,442,464,584,586,665,852,988,989,992,994,1193,1336,19131,19132,25564,25574]:f1.write(f"{k1}&nbsp;{gkt(i)}\n")
-            else:f1.write(f"{k1}\n")
-    return&nbsp;fp
-def&nbsp;gkt(i):
-    kt2={20:"FTP?",21:"SSH?"if&nbsp;random.random()<0.5&nbsp;else"SFTP?",24:"SMTP?",52:"DNS?",68:"Nice!",79:"HTTP?",142:"IMAP?",419:"Smoke Weed Everyday!",442:"HTTPS?",464:"SMTPS?",584:"IMAP?",586:"SMTP?",665:"Satan!"if&nbsp;random.random()<0.2&nbsp;else&nbsp;random.choice(["The&nbsp;Devil!","Lucifer&nbsp;Lux!","Beelzebul!","Beelzebub!"]),852:"DTLS?",988:"FTPS?",989:"FTPS?",992:"IMAPS?",994:"POP3S?",1193:"OpenVPN?",1336:"Hacker!"if&nbsp;random.random()<0.2&nbsp;else&nbsp;random.choice(["Elite!","Access&nbsp;Granted!","Access&nbsp;Denied!","We're&nbsp;In!"]),19131:"Minecraft:&nbsp;Bedrock&nbsp;Edition?",19132:"Minecraft:&nbsp;Bedrock?",25564:"Minecraft:&nbsp;Java&nbsp;Edition?"&nbsp;if&nbsp;random.random()<0.5&nbsp;else"Minecraft:&nbsp;Java&nbsp;Edition&nbsp;query?",25574:"Minecraft:&nbsp;Java&nbsp;Edition&nbsp;RCON?"}
-    return&nbsp;kt2.get(i,"")
-n1=int(input("Enter&nbsp;the&nbsp;number&nbsp;of&nbsp;product&nbsp;keys&nbsp;you&nbsp;want&nbsp;to&nbsp;generate?&nbsp;"))
-time.sleep(2)
-print("Please&nbsp;wait...",end="&nbsp;",flush=True)
-time.sleep(0.08)
-print("While&nbsp;i'm&nbsp;generating&nbsp;this&nbsp;file&nbsp;for&nbsp;you.")
-time.sleep(4)
-print("Done!&nbsp;The&nbsp;file&nbsp;'keygen.txt'&nbsp;has&nbsp;been&nbsp;successfully&nbsp;generated,",end="&nbsp;",flush=True)
-time.sleep(0.08)
-k2=gk2(n1)
-fp=wk2tf(k2)
-print(f"The&nbsp;product&nbsp;keys&nbsp;are&nbsp;saved&nbsp;in&nbsp;the&nbsp;following&nbsp;file:&nbsp;'{fp}'")
-time.sleep(3)
-print("Thank&nbsp;you&nbsp;for&nbsp;your&nbsp;patience,&nbsp;And&nbsp;goodbye!&nbsp;:)")
+import&nbsp;os,random,string,time<br>
+def&nbsp;gk2(n1):<br>
+    k2=set()<br>
+    c2=string.ascii_uppercase+string.digits<br>
+    rng=random.SystemRandom()<br>
+    while&nbsp;len(k2)<n1:<br>
+        k1='-'.join([''.join(rng.choices(c2,k=4))for&nbsp;i&nbsp;in&nbsp;range(5)])<br>
+        k2.add(k1)<br>
+    return&nbsp;list(k2)<br>
+def&nbsp;wk2tf(k2):<br>
+    fp=os.path.join(os.getcwd(),"keygen.txt")<br>
+    with&nbsp;open(fp,"w")as&nbsp;f1:<br>
+        for i,k1&nbsp;in&nbsp;enumerate(k2):<br>
+            if&nbsp;i&nbsp;in[20,21,24,52,68,79,142,419,442,464,584,586,665,852,988,989,992,994,1193,1336,19131,19132,25564,25574]:f1.write(f"{k1}&nbsp;{gkt(i)}\n")<br>
+            else:f1.write(f"{k1}\n")<br>
+    return&nbsp;fp<br>
+def&nbsp;gkt(i):<br>
+    kt2={20:"FTP?",21:"SSH?"if&nbsp;random.random()<0.5&nbsp;else"SFTP?",24:"SMTP?",52:"DNS?",68:"Nice!",79:"HTTP?",142:"IMAP?",419:"Smoke Weed Everyday!",442:"HTTPS?",464:"SMTPS?",584:"IMAP?",586:"SMTP?",665:"Satan!"if&nbsp;random.random()<0.2&nbsp;else&nbsp;random.choice(["The&nbsp;Devil!","Lucifer&nbsp;Lux!","Beelzebul!","Beelzebub!"]),852:"DTLS?",988:"FTPS?",989:"FTPS?",992:"IMAPS?",994:"POP3S?",1193:"OpenVPN?",1336:"Hacker!"if&nbsp;random.random()<0.2&nbsp;else&nbsp;random.choice(["Elite!","Access&nbsp;Granted!","Access&nbsp;Denied!","We're&nbsp;In!"]),19131:"Minecraft:&nbsp;Bedrock&nbsp;Edition?",19132:"Minecraft:&nbsp;Bedrock?",25564:"Minecraft:&nbsp;Java&nbsp;Edition?"&nbsp;if&nbsp;random.random()<0.5&nbsp;else"Minecraft:&nbsp;Java&nbsp;Edition&nbsp;query?",25574:"Minecraft:&nbsp;Java&nbsp;Edition&nbsp;RCON?"}<br>
+    return&nbsp;kt2.get(i,"")<br>
+n1=int(input("Enter&nbsp;the&nbsp;number&nbsp;of&nbsp;product&nbsp;keys&nbsp;you&nbsp;want&nbsp;to&nbsp;generate?&nbsp;"))<br>
+time.sleep(2)<br>
+print("Please&nbsp;wait...",end="&nbsp;",flush=True)<br>
+time.sleep(0.08)<br>
+print("While&nbsp;i'm&nbsp;generating&nbsp;this&nbsp;file&nbsp;for&nbsp;you.")<br>
+time.sleep(4)<br>
+print("Done!&nbsp;The&nbsp;file&nbsp;'keygen.txt'&nbsp;has&nbsp;been&nbsp;successfully&nbsp;generated,",end="&nbsp;",flush=True)<br>
+time.sleep(0.08)<br>
+k2=gk2(n1)<br>
+fp=wk2tf(k2)<br>
+print(f"The&nbsp;product&nbsp;keys&nbsp;are&nbsp;saved&nbsp;in&nbsp;the&nbsp;following&nbsp;file:&nbsp;'{fp}'")<br>
+time.sleep(3)<br>
+print("Thank&nbsp;you&nbsp;for&nbsp;your&nbsp;patience,&nbsp;And&nbsp;goodbye!&nbsp;:)")<br>
 time.sleep(4)
          </code>
        </div>
