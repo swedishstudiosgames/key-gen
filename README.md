@@ -40,6 +40,6 @@ Output:
 ```
 Enter the number of product keys, That you want to generate here? 
 Please wait... While i'm generating this file for you.
-Done! The file 'keygen.txt' has been successfully generated, The product keys are saved in the following file: 'C:\Users\{youusername\Desktop\keygen.txt}'
+Done! The file 'keygen.txt' has been successfully generated, The product keys are saved in the following file: 'C:\Users\{yourusername\Desktop\keygen.txt}'
 Thank you for your patience, And goodbye! :)
 ```
