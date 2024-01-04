@@ -15,7 +15,7 @@ def wk2tf(k2):
             else:f1.write(f"{k1}\n")
     return fp
 def gkt(i):
-    kt2={20:"FTP?",21:"SSH?"if random.random()<0.5 else"SFTP?",24:"SMTP?",52:"DNS?",68:"Nice!",79:"HTTP?",142:"IMAP?",419:"Smoke Weed Everyday!",442:"HTTPS?",464:"SMTPS?",584:"IMAP?",586:"SMTP?",665:"Satan!"if random.random()<0.2 else random.choice(["The Devil!","Lucifer Lux!","Beelzebul!","Beelzebub!"]),852:"DTLS?",988:"FTPS?",989:"FTPS?",992:"IMAPS?",994:"POP3S?",1193:"OpenVPN?",1336:"Hacker!"if random.random()<0.2 else random.choice(["Elite!","Access Granted!","Access Denied!","We're In!"]),19131:"Minecraft: Bedrock Edition?",19132:"Minecraft: Bedrock?",25564:"Minecraft: Java Edition?" if random.random()<0.5 else"Minecraft: Java Edition query?",25574:"Minecraft: Java Edition RCON?"}
+    kt2={20:"FTP?"if random.random()<0.5 else"What's 9+10?",21:"SSH?"if random.random()<0.5 else"SFTP?",24:"SMTP?",52:"DNS?",68:"Nice!",79:"HTTP?",142:"IMAP?",419:"Smoke Weed Everyday!",442:"HTTPS?",464:"SMTPS?",584:"IMAP?",586:"SMTP?",665:"Satan!"if random.random()<0.2 else random.choice(["The Devil!","Lucifer Lux!","Beelzebul!","Beelzebub!"]),852:"DTLS?",988:"FTPS?",989:"FTPS?",992:"IMAPS?",994:"POP3S?",1193:"OpenVPN?",1336:"Hacker!"if random.random()<0.2 else random.choice(["Elite!","Access Granted!","Access Denied!","We're In!"]),19131:"Minecraft: Bedrock Edition?",19132:"Minecraft: Bedrock?",25564:"Minecraft: Java Edition?" if random.random()<0.5 else"Minecraft: Java Edition query?",25574:"Minecraft: Java Edition RCON?"}
     return kt2.get(i,"")
 n1=int(input("Enter the number of product keys you want to generate? "))
 time.sleep(2)
